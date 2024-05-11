@@ -1,0 +1,1 @@
+// These are the Parshu Me, the items of power that were crafted by the gods - above all, Enki. These items hold special characteristics that influence abilities

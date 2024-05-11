@@ -1,0 +1,1 @@
+// These are items that are worn for protection. They will be counted for defense.

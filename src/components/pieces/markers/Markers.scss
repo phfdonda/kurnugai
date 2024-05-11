@@ -1,0 +1,27 @@
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+
+    &.filled {
+        background-color: black;
+    }
+}
+
+.filler {
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+    height: 100%;
+
+    &.selected {
+        width: 70%;
+        height: 70%;
+        background-color: black;
+    }
+}

@@ -1,0 +1,1 @@
+// These are the abilities rolled for tests, grouped with their relative Talents. XP are given every successful test, and for every 10 XP points, a new skill point is gained, and a single XP is sent for the relative Talent.

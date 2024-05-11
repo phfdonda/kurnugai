@@ -1,0 +1,1 @@
+// This section groups two types of items: equipment and cargo

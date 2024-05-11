@@ -1,0 +1,2 @@
+// This subsection holds all limiter characteristics. These are not used in rolls, but instead are limiters to Talents. No Talent can be bigger than its Attribute limiter. 
+// For each 10 XP, one Attribute is gained, and one Advantage can be chosen.
