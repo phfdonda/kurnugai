@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: white;
     border-radius: 50%;
     border: 5px solid black;
@@ -20,8 +20,8 @@
     height: 100%;
 
     &.selected {
-        width: 70%;
-        height: 70%;
+        width: 65%;
+        height: 65%;
         background-color: black;
     }
 }

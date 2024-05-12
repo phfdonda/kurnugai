@@ -3,7 +3,7 @@
 // After the character is built (or item added), the set points are filled completely.
 // *********************************************************************
 import { useState } from 'react'
-import './Markers.scss'
+import './styles/Circle.scss'
 const Circle = () => {
     const permanent = false
     const charBuilding = true
@@ -14,6 +14,7 @@ const Circle = () => {
         e.stopPropagation()
         setSelected(!selected)
     }
+    console.log(selected)
 
     return (
         <div className={`circle ${permanent ? 'filled' : ''}`}>

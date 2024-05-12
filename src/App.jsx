@@ -1,11 +1,12 @@
-import Circle from "./components/pieces/markers/Circle"
 import "src/App.scss"
+import Progress from "./components/pieces/markers/Progress"
+import Counter from "./components/pieces/markers/Counter"
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Circle />
+                <Counter />
             </header>
         </div>
     )

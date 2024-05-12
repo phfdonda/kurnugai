@@ -1,0 +1,32 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+    height: 80px;
+}
+
+.counter-name {
+    width: auto;
+    height: 60px;
+}
+
+.max-points,
+.temporary-points {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 5px;
+}
+
+.temporary-points > .square {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+.max-points > .circle {
+    width: 32px;
+    height: 32px;
+}

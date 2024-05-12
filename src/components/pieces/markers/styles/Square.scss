@@ -1,0 +1,18 @@
+.square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 1px;
+}
+
+.filled {
+    & > div {
+        width: 15px;
+        height: 15px;
+        background-color: rgb(81, 81, 81);
+    }
+}

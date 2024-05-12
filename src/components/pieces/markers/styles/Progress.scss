@@ -1,0 +1,15 @@
+.progress {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.progress > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    height: auto;
+}
