@@ -4,9 +4,8 @@
 // *********************************************************************
 import { useState } from 'react'
 import './styles/Circle.scss'
-const Circle = () => {
-    const permanent = false
-    const charBuilding = true
+const Circle = (props) => {
+    const { permanent = false, charBuilding = false } = props
     const key = 1
 
     const [selected, setSelected] = useState(false)
@@ -14,7 +13,6 @@ const Circle = () => {
         e.stopPropagation()
         setSelected(!selected)
     }
-    console.log(selected)
 
     return (
         <div className={`circle ${permanent ? 'filled' : ''}`}>

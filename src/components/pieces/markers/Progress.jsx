@@ -5,30 +5,48 @@ import Circle from "./Circle"
 import Square from "./Square"
 import './styles/Progress.scss'
 
-const Progress = () => {
-    return (<div className="progress">
-        <div className="circles">
-            <Circle />
-            <Circle />
-            <Circle />
-            <Circle />
-            <Circle />
-        </div>
-        <div className="squares">
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-            <Square />
-        </div>
+const Progress = (props) => {
+    const { name, points } = props
+    const renderPermanentCircles = () => {
+        const permanentCircles = []
+        for (let i = 0;i < points;i++) {
+            permanentCircles.push(< Circle key={`permPoint-${i}`} permanent={true} />)
+        }
+        return permanentCircles
+    }
+    const renderEmptyCircles = () => {
+        const emptyCircles = []
+        for (let i = 0;i < 5 - points;i++) {
+            emptyCircles.push(< Circle key={`emptyPoint-${i}`} />)
+        }
+        return emptyCircles
+    }
+
+    return (
+        <div className="progress">
+            <div className="progress-name">
+                <h1>{name}</h1>
+            </div>
+            <div className="circles">
+                {renderPermanentCircles()}
+                {renderEmptyCircles()}
+
+            </div>
+            <div className="squares">
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+                <Square />
+            </div>
 
 
-    </div>
+        </div>
     )
 }
 

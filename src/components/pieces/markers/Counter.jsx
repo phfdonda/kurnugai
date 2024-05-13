@@ -5,11 +5,12 @@ import Circle from "./Circle"
 import Square from "./Square"
 import './styles/Counter.scss'
 
-const Counter = () => {
+const Counter = (props) => {
+    const { name = "Nome do Contador" } = props
     return (
         <div className="counter">
             <div className="counter-name">
-                <h1>Nome do Contador</h1>
+                <h1>{name}</h1>
             </div>
             <div className="max-points">
                 <Circle />

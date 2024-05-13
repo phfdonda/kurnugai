@@ -1,12 +1,11 @@
 import "src/App.scss"
-import Progress from "./components/pieces/markers/Progress"
-import Counter from "./components/pieces/markers/Counter"
+import Attributes from "./components/sections/abilities/atributes/Attributes"
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Counter />
+                <Attributes />
             </header>
         </div>
     )

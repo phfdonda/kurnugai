@@ -11,11 +11,10 @@ const Square = () => {
         e.stopPropagation()
         setSelected(!selected)
     }
-    console.log(selected)
 
     return (
         <div onClick={handleSelection} className={`square ${selected ? 'filled' : ''}`}>
-            <div classname="square-filler"></div>
+            <div className="square-filler"></div>
         </div >
     )
 }

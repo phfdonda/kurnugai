@@ -1,15 +1,17 @@
 .progress {
     display: flex;
     flex-direction: column;
-    width: 170px;
-    height: 60px;
-    justify-content: space-between;
-}
-
-.progress > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 170px;
+    width: 180px;
     height: auto;
+    justify-content: space-between;
+    margin: 10px auto;
+    .squares,
+    .circles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 170px;
+        height: auto;
+        margin: 2px 0;
+    }
 }
