@@ -19,7 +19,7 @@ const Attributes = () => {
             const attributes = []
             attributesData.map((type) => {
                 attributes.push(
-                    <div key={type.name} className='attributes-section'>
+                    <li key={type.name} className='attributes-section'>
                         <div className="type-title">
                             <h1>{type.name}</h1>
                         </div>
@@ -30,21 +30,18 @@ const Attributes = () => {
                                 )
                             })
                         }
-                    </div>
+                    </li>
                 )
             })
             return attributes
         }
 
         return (
-            <section onClick={toggleAttributeSection} className="attributes">
-                <button type="button" className={`attributes-section-title ${isOpen ? 'sticky' : ''}`}><h1>Attributes</h1></button>
+            <section className="attributes">
+                <button onClick={toggleAttributeSection} type="button" className={`attributes-section-title ${isOpen ? 'sticky' : ''}`}><h1>Atributos</h1></button>
                 {
                     isOpen &&
-                    <div>
-                        {renderAttributes()}
-                    </div>
-
+                    <ul>{renderAttributes()}</ul>
                 }
             </section >
         )
