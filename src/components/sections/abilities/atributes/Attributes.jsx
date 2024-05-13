@@ -38,8 +38,9 @@ const Attributes = () => {
 
         return (
             <section onClick={toggleAttributeSection} className="attributes">
-                <button type="button" className="attributes-section-title"><h1>Attributes</h1></button>
-                {isOpen &&
+                <button type="button" className={`attributes-section-title ${isOpen ? 'sticky' : ''}`}><h1>Attributes</h1></button>
+                {
+                    isOpen &&
                     <div>
                         {renderAttributes()}
                     </div>
