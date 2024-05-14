@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Corpo",
+        "attributes": [
+            {
+                "key": "FOR",
+                "title": "Força",
+                "points": 1
+            },
+            {
+                "key": "DES",
+                "title": "Destreza",
+                "points": 1
+            },
+            {
+                "key": "VIG",
+                "title": "Vigor",
+                "points": 1
+            }
+        ]
+    },
+    {
+        "name": "Mente",
+        "attributes": [
+            {
+                "key": "PER",
+                "title": "Percepção",
+                "points": 1
+            },
+            {
+                "key": "INT",
+                "title": "Inteligência",
+                "points": 1
+            },
+            {
+                "key": "RAC",
+                "title": "Raciocínio",
+                "points": 1
+            }
+        ]
+    },
+    {
+        "name": "Alma",
+        "attributes": [
+            {
+                "key": "PRE",
+                "title": "Presença",
+                "points": 1
+            },
+            {
+                "key": "VON",
+                "title": "Vontade",
+                "points": 1
+            },
+            {
+                "key": "SIN",
+                "title": "Sintonia",
+                "points": 1
+            }
+        ]
+    }
+]

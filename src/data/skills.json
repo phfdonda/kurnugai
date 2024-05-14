@@ -1,0 +1,168 @@
+[
+    {
+        "name": "Perícias",
+        "skills": [
+            {
+                "name": "swords",
+                "title": "Espadas",
+                "points": 0,
+                "talent": "melee",
+                "description": "Mede o quanto o personagem é habilidoso com espadas e lâminas longas em geral."
+            },
+            {
+                "name": "daggers",
+                "title": "Adagas",
+                "points": 0,
+                "talent": "melee",
+                "description": "Mede o quanto o personagem é habilidoso com adagas, facas, e lâminas curtas em geral."
+            },
+            {
+                "name": "archery",
+                "title": "Arqueirismo",
+                "points": 0,
+                "talent": "aim",
+                "description": "O personagem é capaz atacar com arcos, bestas, e outras armas de ataque à distância de corda."
+            },
+            {
+                "name": "throwing",
+                "title": "Arremesso",
+                "points": 0,
+                "talent": "aim",
+                "description": "O personagem é capaz arremessar adagas, lanças, machados, e outras armas feitas para esse fim."
+            },
+            {
+                "name": "regression",
+                "title": "Regressão",
+                "points": 0,
+                "talent": ["memory", "medidation"],
+                "description": "O personagem é capaz de entrar em um estado meditativo que o permite visitar memórias de vidas passadas."
+            },
+            {
+                "name": "reverie",
+                "title": "Devaneio",
+                "points": 0,
+                "talent": "medidation",
+                "description": "O personagem é capaz de entrar em um estado de devaneio, que o permite se destacar do corpo e visitar o mundo espiritual."
+            },
+            {
+                "name": "marching",
+                "title": "Marcha",
+                "points": 0,
+                "talent": "movement",
+                "description": "O personagem é capaz de caminhar longas distâncias sem se cansar. Não basta só caminhar, realmente marchar por dezenas ou até centenas de quilômetros exige técnica e treino."
+            },
+            {
+                "name": "sprinting",
+                "title": "Corrida",
+                "points": 0,
+                "talent": "movement",
+                "description": "Mede o quão rápido o personagem é capaz de correr distâncias curtas. Esta não é a corrida normal, mas uma técnica de corrida mais rápida."
+            },
+            {
+                "name": "climbing",
+                "title": "Escalada",
+                "points": 0,
+                "talent": "movement",
+                "description": "Mede o quanto o personagem é capaz de escalar. Existe uma diferença considerável entre subir em uma árvore e escalar uma montanha."
+            },
+            {
+                "name": "swimming",
+                "title": "Natação",
+                "points": 0,
+                "talent": "movement",
+                "description": "Mede o quão bem o personagem é capaz de nadar. Sem ao menos um ponto nessa perícia o personagem afunda como uma pedra."
+            },
+            {
+                "name": "acrobacy",
+                "title": "Acrobacia",
+                "points": 0,
+                "talent": ["movement", "dodge"],
+                "description": "Mede o quanto o personagem treinou seu corpo para realizar manobras como giros no ar, escapar de danos de área, e outros movimentos difíceis."
+            },
+            {
+                "name": "martial-arts",
+                "title": "Artes Marciais",
+                "points": 0,
+                "talent": ["fight", "callus"],
+                "description": "Após longo treino, o personagem é capaz de executar golpes muito mais poderosos com seu corpo. Também mede se o personagem é capaz de bloquear ataques sem se machucar."
+            },
+            {
+                "name": "third-eye",
+                "title": "Terceiro Olho",
+                "points": 0,
+                "talent": "sixth-sense",
+                "description": "O personagem é capaz de ver auras."
+            },
+            {
+                "name": "spirit-tide",
+                "title": "Maré da Alma",
+                "points": 0,
+                "talent": ["sixth-sense", "medidation"],
+                "description": "O personagem é de estender e recolher sua própria aura, seja para sentir e atuar à distância, ou para se esconder de sensitivos."
+            },
+            {
+                "name": "spirit-shell",
+                "title": "Concha Espiritual",
+                "points": 0,
+                "talent": ["sixth-sense", "medidation", "discipline"],
+                "description": "O personagem é capaz de fechar sua aura e resistir a ataques espirituais."
+            },
+            {
+                "name": "intimidation",
+                "title": "Intimidação",
+                "points": 1,
+                "limiters": ["PRE", "VON"],
+                "description": "Mede o quanto o personagem é capaz de impor respeito e medo."
+            },
+            {
+                "name": "charisma",
+                "title": "Carisma",
+                "points": 1,
+                "limiters": ["PRE"],
+                "description": "Mede o quanto o personagem é capaz de se fazer querido e conquistar a confiança e apreço dos outros."
+            },
+            {
+                "name": "discerning",
+                "title": "Discernimento",
+                "points": 1,
+                "limiters": ["PER", "INT", "RAC"],
+                "description": "Mede o quanto o personagem é capaz de detectar inconsistências em discursos e comportamentos, como mentiras, ou alguém agindo de modo estranho."
+            },
+            {
+                "name": "subterfuge",
+                "title": "Lábia",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quanto o personagem é capaz de enganar, desviar atenção ou manipular outros para obter alguma coisa."
+            },
+            {
+                "name": "ride",
+                "title": "Montaria",
+                "points": 1,
+                "limiters": ["DES", "VIG", "PRE"],
+                "description": "Mede o quanto o personagem é capaz de se manter sobre um animal que o carregue - voluntariamente ou não."
+            },
+            {
+                "name": "search",
+                "title": "Busca",
+                "points": 1,
+                "limiters": ["INT", "PER"],
+                "description": "Mede o quanto o personagem é capaz de encontrar 'uma agulha no palheiro', um livro em uma biblioteca, ou um indivíduo em uma multidão."
+            },
+            {
+                "name": "animal-handling",
+                "title": "Empatia com Animais",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quanto o personagem é capaz conquistar a confiança de um animal."
+            },
+            {
+                "name": "discipline",
+                "title": "Disciplina",
+                "points": 1,
+                "limiters": ["VIG", "VON"],
+                "description": "Mede o quanto o personagem é capaz de agir apesar da dor, doença, cansaço, confusão, ou qualquer outro fator debilitante."
+            }
+        ]
+    }
+]

@@ -6,7 +6,7 @@ import Square from "./Square"
 import './styles/Progress.scss'
 
 const Progress = (props) => {
-    const { name, points } = props
+    const { title, points } = props
     const renderPermanentCircles = () => {
         const permanentCircles = []
         for (let i = 0;i < points;i++) {
@@ -25,7 +25,7 @@ const Progress = (props) => {
     return (
         <div className="progress">
             <div className="progress-name">
-                <h1>{name}</h1>
+                <h1>{title}</h1>
             </div>
             <div className="circles">
                 {renderPermanentCircles()}

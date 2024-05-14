@@ -3,7 +3,7 @@
 // ******************************************************************************
 import { useState } from "react";
 import Progress from "src/components/pieces/markers/Progress";
-import { $attributesData } from "src/state"
+import { $attributesData } from "src/state/points.context.js"
 import './styles/Attributes.scss'
 
 const Attributes = () => {
@@ -26,7 +26,7 @@ const Attributes = () => {
                         {
                             type.attributes.map((attribute) => {
                                 return (
-                                    <Progress key={attribute.name} name={attribute.name} points={attribute.points} />
+                                    <Progress key={attribute.key} title={attribute.title} points={attribute.points} />
                                 )
                             })
                         }

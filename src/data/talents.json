@@ -1,0 +1,203 @@
+[
+    {
+        "name": "Talentos",
+        "talents": [
+            {
+                "name": "brutality",
+                "title": "Brutalidade",
+                "points": 1,
+                "limiters": ["FOR"],
+                "description": "Mede o quanto o personagem consegue comandar seu corpo a causar dano brutal (corpo a corpo, na base da força)."
+            },
+            {
+                "name": "coldness",
+                "title": "Frieza",
+                "points": 1,
+                "limiters": ["DES"],
+                "description": "O personagem é capaz de causar dano com ataques sutis, como uma facada ou um tiro, com precisão e letalidade, sem hesitar."
+            },
+            {
+                "name": "callus",
+                "title": "Calejamento",
+                "points": 1,
+                "limiters": ["VIG"],
+                "description": "Mede o quanto o personagem é capaz de suportar de dano por contusão."
+            },
+            {
+                "name": "memory",
+                "title": "Memória",
+                "points": 1,
+                "limiters": ["INT"],
+                "description": "O personagem é capaz de recordar fatos e situações passadas."
+            },
+            {
+                "name": "alertness",
+                "title": "Prontidão",
+                "points": 1,
+                "limiters": ["DES", "PER", "RAC"],
+                "description": "O personagem está pronto para agir imediatamente, mesmo quando pego desprevinido."
+            },
+            {
+                "name": "melee",
+                "title": "Armas Brancas",
+                "points": 1,
+                "limiters": ["FOR", "DES"],
+                "description": "O personagem é capaz de usar armas brancas."
+            },
+            {
+                "name": "fight",
+                "title": "Briga",
+                "points": 1,
+                "limiters": ["FOR", "DES"],
+                "description": "Mede o quanto o personagem é capaz de acertar golpes com suas mãos, pernas, etc."
+            },
+            {
+                "name": "aim",
+                "title": "Mira",
+                "points": 1,
+                "limiters": ["DES"],
+                "description": "O personagem é capaz de atacar à distância."
+            },
+            {
+                "name": "dodge",
+                "title": "Esquiva",
+                "points": 1,
+                "limiters": ["DES", "RAC"],
+                "description": "O personagem é capaz de evitar dano de um ataque."
+            },
+            {
+                "name": "movement",
+                "title": "Movimento",
+                "points": 1,
+                "limiters": ["FOR", "DES", "VIG"],
+                "description": "O personagem é capaz de mover-se de qualquer forma que não exija um aprendizado especial: pode correr, saltar ou escalar, mas não nadar, por exemplo."
+            },
+            {
+                "name": "sixth-sense",
+                "title": "Sexto Sentido",
+                "points": 1,
+                "limiters": ["SIN"],
+                "description": "O personagem é capaz de sentir auras."
+            },
+            {
+                "name": "sight",
+                "title": "Visão",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quão boa é a visão do personagem."
+            },
+            {
+                "name": "hearing",
+                "title": "Audição",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quão boa é a audição do personagem."
+            },
+            {
+                "name": "intimidation",
+                "title": "Intimidação",
+                "points": 1,
+                "limiters": ["PRE", "VON"],
+                "description": "Mede o quanto o personagem é capaz de impor respeito e medo."
+            },
+            {
+                "name": "charisma",
+                "title": "Carisma",
+                "points": 1,
+                "limiters": ["PRE"],
+                "description": "Mede o quanto o personagem é capaz de se fazer querido e conquistar a confiança e apreço dos outros."
+            },
+            {
+                "name": "discerning",
+                "title": "Discernimento",
+                "points": 1,
+                "limiters": ["PER", "INT", "RAC"],
+                "description": "Mede o quanto o personagem é capaz de detectar inconsistências em discursos e comportamentos, como mentiras, ou alguém agindo de modo estranho."
+            },
+            {
+                "name": "subterfuge",
+                "title": "Lábia",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quanto o personagem é capaz de enganar, desviar atenção ou manipular outros para obter alguma coisa."
+            },
+            {
+                "name": "ride",
+                "title": "Montaria",
+                "points": 1,
+                "limiters": ["DES", "VIG", "PRE"],
+                "description": "Mede o quanto o personagem é capaz de se manter sobre um animal que o carregue - voluntariamente ou não."
+            },
+            {
+                "name": "search",
+                "title": "Busca",
+                "points": 1,
+                "limiters": ["INT", "PER"],
+                "description": "Mede o quanto o personagem é capaz de encontrar 'uma agulha no palheiro', um livro em uma biblioteca, ou um indivíduo em uma multidão."
+            },
+            {
+                "name": "animal-handling",
+                "title": "Empatia com Animais",
+                "points": 1,
+                "limiters": ["PER"],
+                "description": "Mede o quanto o personagem é capaz conquistar a confiança de um animal."
+            },
+            {
+                "name": "discipline",
+                "title": "Disciplina",
+                "points": 1,
+                "limiters": ["VIG", "VON"],
+                "description": "Mede o quanto o personagem é capaz de agir apesar da dor, doença, cansaço, confusão, ou qualquer outro fator debilitante."
+            },
+            {
+                "name": "tinkering",
+                "title": "Ofícios",
+                "points": 1,
+                "limiters": ["DES", "INT"],
+                "description": "Mede o quão talentoso o personagem é em trabalhar com materiais e equipamentos."
+            },
+            {
+                "name": "study",
+                "title": "Estudo",
+                "points": 1,
+                "limiters": ["INT"],
+                "description": "Mede o quão rápido e profundamente o personagem consegue absorver conhecimento a partir de leituras, pesquisas, ou qualquer outro tipo de estudo."
+            },
+            {
+                "name": "linguistics",
+                "title": "Linguística",
+                "points": 1,
+                "limiters": ["INT"],
+                "description": "Mede o quanto o personagem é talentoso em idiomas."
+            },
+            {
+                "name": "cargo",
+                "title": "Carga",
+                "points": 1,
+                "limiters": ["FOR", "VIG"],
+                "description": "Mede o quanto o personagem é capaz de carregar sem se exaurir."
+            },
+            {
+                "name": "meditation",
+                "title": "Meditação",
+                "points": 1,
+                "limiters": ["SIN", "VON"],
+                "description": "Mede o quanto o personagem é capaz de se concentrar em sua sintonia com sua própria essência."
+            },
+            {
+                "name": "tecnology",
+                "title": "Tecnologia",
+                "points": 1,
+                "limiters": ["INT"],
+                "description": "Mede o quanto o personagem é talentoso para compreender e manipular tecnologia."
+            },
+            {
+                "name": "performance",
+                "title": "Performance",
+                "points": 1,
+                "limiters": ["DES", "PRE"],
+                "description": "Mede o quanto o personagem é talentoso em criar arte com seus movimentos e voz, ou com ajuda de instrumentos."
+            }
+        ]
+    }
+]
